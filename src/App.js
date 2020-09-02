@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Logo from "./MobitLogo.png"
+import Logo from "./Lager 1.png"
 
 function App() {
   return (
