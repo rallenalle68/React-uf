@@ -1,12 +1,17 @@
 *{
   color: whitesmoke;
+  background-color: rgb(23, 73, 148);
 }
 
 .app{
-  width: 400px;
-  max-height: 100%;
-  min-height: 700px;
-  background-color: rgb(24, 44, 133);
-  margin: auto;
+  width: auto;
+  max-height: 100vh;
+  display: grid;
+  justify-items: center;
 }
 
+.mobitLogo{
+  width: 300px;
+  height: 300px;
+  margin-top: 50%;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Logo from "./MobitLogo.png"
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello</h1>
+      <div><img className="mobitLogo" src={Logo} alt="website logo" /></div>
     </div>
   );
 }
