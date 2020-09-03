@@ -8,14 +8,35 @@
   max-height: 100vh;
   display: grid;
   justify-items: center;
+
 }
 
 .mobitLogo{
   width: 300px;
   height: 300px;
-  margin-top: 50%;
   box-shadow: 4px 12px 20px 1px rgba(0, 0, 0, 0.555);
+
   border-radius: 50%;
   border:solid 1px whitesmoke;
+  animation-name: Logo;
+  animation-delay: 4s;
+  animation-duration: 7s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
 }
+
+@keyframes Logo{
+  25%{top: 55%; transform: rotate(-270deg)}
+  50%{top: -1000px; transform: rotate(360deg);}
+  100%{top: -1800px; }
+ 
+}
+
+
 
